@@ -6,8 +6,9 @@ import java.io.*;
 import javax.imageio.*;
 
 public class ImageEditorFrame extends JFrame {
+	public ImageEditorPanel panel;
     public ImageEditorFrame() {
-        ImageEditorPanel panel = new ImageEditorPanel();
+        panel = new ImageEditorPanel();
     	add(panel);
     	setDummyImage(panel);
 
