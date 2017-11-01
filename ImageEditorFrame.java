@@ -7,6 +7,7 @@ import javax.imageio.*;
 public class ImageEditorFrame extends JFrame{
  public ImageEditorFrame(){
  setDefaultCloseOperation(EXIT_ON_CLOSE);
+ setTitle("ein Titel");
  setSize(400, 300);
  setVisible(true);
  }
